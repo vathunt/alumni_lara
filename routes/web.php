@@ -83,5 +83,5 @@ Route::group(['middleware' => ['auth', 'revalidate']], function() {
 // Route::post('coba', 'Latihan@latihan')->name('coba.import');
 // Route::get('data', 'Latihan@data');
 // Route::get('data/{enkripsi}', 'Latihan@data_enkripsi');
-Route::get('crop', 'Latihan@crop');
-Route::post('crop', 'Latihan@uploadCropImage');
+// Route::get('crop', 'Latihan@crop');
+// Route::post('crop', 'Latihan@uploadCropImage');
